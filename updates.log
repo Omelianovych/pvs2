@@ -1,0 +1,19 @@
+2024-12-25 21:00:55,334 - INFO - [Lost Update] Starting 10 threads, each performing 10000 increments.
+2024-12-25 21:02:11,588 - INFO - [Lost Update] Completed in 76.25 seconds.
+2024-12-25 21:02:11,588 - INFO - [Lost Update] Expected final counter value: 100000
+2024-12-25 21:02:11,602 - INFO - USER_ID: 1, Counter: 10147, Version: 0
+2024-12-25 21:02:11,618 - INFO - 
+[In-place Update] Starting 10 threads, each performing 10000 increments.
+2024-12-25 21:04:44,224 - INFO - [In-place Update] Completed in 152.61 seconds.
+2024-12-25 21:04:44,224 - INFO - [In-place Update] Expected final counter value: 100000
+2024-12-25 21:04:44,251 - INFO - USER_ID: 1, Counter: 100000, Version: 0
+2024-12-25 21:04:44,267 - INFO - 
+[Row-level Locking] Starting 10 threads, each performing 10000 increments.
+2024-12-25 21:09:31,082 - INFO - [Row-level Locking] Completed in 286.81 seconds.
+2024-12-25 21:09:31,082 - INFO - [Row-level Locking] Expected final counter value: 100000
+2024-12-25 21:09:31,105 - INFO - USER_ID: 1, Counter: 100000, Version: 0
+2024-12-25 21:09:31,135 - INFO - 
+[Optimistic Concurrency] Starting 10 threads, each performing 10000 increments.
+2024-12-25 21:15:39,268 - INFO - [Optimistic Concurrency] Completed in 368.13 seconds.
+2024-12-25 21:15:39,268 - INFO - [Optimistic Concurrency] Expected final counter value: 100000
+2024-12-25 21:15:39,295 - INFO - USER_ID: 1, Counter: 100000, Version: 100000
